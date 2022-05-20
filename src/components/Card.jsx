@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-export default function Carta({ index,id, original_title,  vote_average, backdrop_path }) {
+export default function Carta({ id, original_title,  vote_average, backdrop_path }) {
     return (
         <div className={`col-4 my-2`}>
             <Card >

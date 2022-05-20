@@ -6,7 +6,7 @@ export default function ListMovies({title}) {
             <div className="row ">
                 <h1>{title}</h1>
                 {arrayMovies.map((movie,index) => (
-                   <Card key={`${index+1}`} index={""+parseInt(index+1)} id={movie.id} original_title={movie.original_title} 
+                   <Card key={`${index+1}`} id={movie.id} original_title={movie.original_title} 
                    backdrop_path={movie.backdrop_path} vote_average={movie.vote_average}>
                     </Card>
 
