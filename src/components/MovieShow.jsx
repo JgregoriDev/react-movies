@@ -28,7 +28,7 @@ function ShowMovieInformation({title}) {
           <p><span className='fw-bold'>Overview:</span> {movieFinded.overview}</p>
           <Link to="/"
             className='btn btn-primary' state={{ test: "test" }} >
-           <i class="bi bi-house-door"></i> Home
+           <i className="bi bi-house-door"></i> Home
           </Link>
         </Card.Body>
       </Card>

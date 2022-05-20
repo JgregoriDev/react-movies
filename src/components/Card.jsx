@@ -10,7 +10,7 @@ export default function Carta({ key,id, original_title,  vote_average, backdrop_
                     <p>Puntuation: <span className='text-danger'>{vote_average}</span></p>
                     <Link to={{ pathname: `/movies/${id}` }}
                         className='btn btn-primary' state={{ test: "test" }} >
-                       <i class="bi bi-info"></i> More about this movie
+                       <i className="bi bi-info"></i> More about this movie
                     </Link>
                     {/* <Route name="MovieShow" path="/:movie.id" className='btn btn-primary' /> */}
                 </Card.Body>
